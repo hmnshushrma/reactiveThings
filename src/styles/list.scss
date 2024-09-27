@@ -1,0 +1,33 @@
+// Variables for spacing and colors
+@import "./variables"; /* List Utility Classes */
+
+.list-reset {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-spacing {
+  li {
+    margin-bottom: $spacing-md;
+  }
+}
+
+.list-spacing-sm {
+  li {
+    margin-bottom: $spacing-sm;
+  }
+}
+
+.list-spacing-lg {
+  li {
+    margin-bottom: $spacing-lg;
+  }
+}
+
+.list-inline {
+  li {
+    display: inline-block;
+    margin-right: $spacing-sm;
+  }
+}

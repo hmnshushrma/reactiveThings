@@ -1,0 +1,11 @@
+// main-content.scss
+
+@import "./variables";
+
+.main-content {
+  background-color: $main-bg-color;
+  color: $main-text-color;
+  padding: $padding;
+  flex-grow: 1;
+  min-height: 100vh; // Full-height for the layout
+}

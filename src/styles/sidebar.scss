@@ -1,0 +1,21 @@
+// sidebar.scss
+@import "./variables";
+.sidebar {
+  background-color: $sidebar-bg-color;
+  color: $sidebar-text-color;
+  padding: $padding;
+  height: 100vh;
+  width: 250px;
+
+  // Sidebar links
+  a {
+    color: $sidebar-text-color;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    display: block;
+
+    &:hover {
+      background-color: $sidebar-bg-color-complementry;
+    }
+  }
+}

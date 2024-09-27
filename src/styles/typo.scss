@@ -1,0 +1,114 @@
+@import "./variables"; /* Typography Utility Classes */
+
+// Font family
+.typo-default {
+  font-family: $font-family;
+}
+
+// Font sizes
+.typo-sm {
+  font-size: $font-size-sm;
+}
+
+.typo-md {
+  font-size: $font-size-md;
+}
+
+.typo-lg {
+  font-size: $font-size-lg;
+}
+
+.typo-xl {
+  font-size: $font-size-xl;
+}
+
+// Font weights
+.typo-normal {
+  font-weight: $font-weight-normal;
+}
+
+.typo-bold {
+  font-weight: $font-weight-bold;
+}
+
+// Line heights
+.typo-line-normal {
+  line-height: $line-height-normal;
+}
+
+.typo-line-tight {
+  line-height: $line-height-tight;
+}
+
+.typo-line-loose {
+  line-height: $line-height-loose;
+}
+
+// Text colors
+.typo-color-default {
+  color: $text-color-default;
+}
+
+.typo-color-muted {
+  color: $text-color-muted;
+}
+
+.typo-color-primary {
+  color: $text-color-primary;
+}
+
+// Text alignment
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+// Text transformation
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+// Text decoration
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-line-through {
+  text-decoration: line-through;
+}
+
+.text-no-decoration {
+  text-decoration: none;
+}
+
+// Letter spacing
+.letter-spacing-normal {
+  letter-spacing: normal;
+}
+
+.letter-spacing-wide {
+  letter-spacing: 0.1em;
+}
+
+.letter-spacing-wider {
+  letter-spacing: 0.15em;
+}
