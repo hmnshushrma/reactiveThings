@@ -15,9 +15,7 @@ Access the repository here: [ReactiveThings GitHub](https://github.com/hmnshushr
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Concepts Covered](#concepts-covered)
-- [Recent Commit](#recent-commit)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -132,24 +130,6 @@ This repository is structured to make navigation easy for learners:
 
 ---
 
-## Recent Commit
-
-To display the most recent commit directly in your README, you can run the following command in your terminal to show the latest commit message, author, and date:
-
-```bash
-git log -1 --pretty=format:"%h - %s (%ci) <%an>"
-```
-
-This command will display the commit hash, commit message, date, and author. For example:
-
-```
-e4d1cfd - Updated useEffect example (2024-09-27 12:34:56 +0000) <Himanshu Sharma>
-```
-
-Alternatively, you can automate displaying the most recent commit in the README using GitHub Actions or other CI tools, though this requires a custom script setup.
-
----
-
 ## Contributing
 
 If you wish to contribute to this project, feel free to submit pull requests or report issues. Contributions are welcome and greatly appreciated!
@@ -159,12 +139,6 @@ If you wish to contribute to this project, feel free to submit pull requests or 
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
 4. Push to the branch (`git push origin feature/AmazingFeature`).
 5. Open a pull request.
-
----
-
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
 ---
 
