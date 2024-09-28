@@ -8,8 +8,8 @@
       "path": "./tsconfig.node.json"
     }
   ],
-  "compilerOptions": {
-    "jsx": "react-jsx", // If React 17+
-    "jsx": "react" // For older React versions
-  }
+  // "compilerOptions": {
+  //   "jsx": "react-jsx", // If React 17+
+  //   "jsx": "react" // For older React versions
+  // }
 }

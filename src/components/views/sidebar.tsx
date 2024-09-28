@@ -2,7 +2,7 @@ import React from "react";
 import { SidebarComponentModel } from "../../definitions/sidebar.def";
 import "./../../styles/sidebar.scss";
 import { HooksList } from "../../definitions/hooks.def";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const listOfHooks: HooksList = {
     basic: ["useState", "useEffect", "useContext"],
